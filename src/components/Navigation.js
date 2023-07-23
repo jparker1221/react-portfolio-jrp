@@ -17,6 +17,6 @@ function Navigation() {
             </Dropdown.Menu>
         </Dropdown>
     )
-}
+};
 
 export default Navigation;
