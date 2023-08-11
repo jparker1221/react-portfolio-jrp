@@ -19,20 +19,20 @@ function Resume() {
                 </Row>
                 <Row>
                     <Col>
-                        <h3>Technical Skills</h3>
+                        <h3>Programming Skills</h3>
                         <hr className='star-secondary' />
                         <ul className='list-inline'>
                             <li className='list-inline-item'>
                                 <strong>Languages:</strong> JavaScript, HTML, CSS
                             </li>
                             <li className='list-inline-item'>
-                                <strong>Libraries/Frameworks:</strong> React, jQuery, Bootstrap, Express, Node
+                                <strong>Frameworks/Packages:</strong> React, jQuery, Bootstrap, Express, Node
                             </li>
                             <li className='list-inline-item'>
                                 <strong>Databases:</strong> MySQL, MongoDB
                             </li>
                             <li className='list-inline-item'>
-                                <strong>Tools/Platforms:</strong> Git, GitHub, Heroku, Insomnia, VSCode
+                                <strong>Other Platforms:</strong> Git, GitHub, Heroku, Insomnia, VSCode
                             </li>
                         </ul>
                     </Col>
@@ -44,12 +44,10 @@ function Resume() {
                         <div className='resume-item'>
                             <h4>Bachelor of Arts in Business Administration</h4>
                             <h5>NC State University, 2007-2011</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
-                                odio eget est convallis ullamcorper. Duis bibendum vestibulum
-                                risus, non convallis odio aliquam eu.
-                            </p>
+                        </div>
+                        <div className='resume-item'>
+                            <h4>Certificate in Full Stack Web Development</h4>
+                            <h5>UNC-Chapel Hill Boot Camps, 2023</h5>
                         </div>
                     </Col>
                 </Row>
