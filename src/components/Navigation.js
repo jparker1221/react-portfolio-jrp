@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
-// import './assets/styling/fonts.css';
+import '../style/Navigation.css';
 
 function Navigation() {
     return (

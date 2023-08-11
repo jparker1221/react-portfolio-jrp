@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
 // import project images here
-// import CSS here
+import '../style/Portfolio.css';
 
 // Portfolio page
 function Portfolio() {

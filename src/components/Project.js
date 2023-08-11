@@ -1,5 +1,4 @@
 import React from 'react';
-// import CSS here
 
 // Project component
 function Project(props) {

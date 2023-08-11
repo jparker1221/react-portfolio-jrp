@@ -1,11 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import '../style/Footer.css';
 
 function Footer() {
     return(
         <>
-        <footer className='footer bg-primary text-white'>
+        <footer className='footer bg-dark text-white'>
             <div className='footer-container'>
                 <section className='social-icons-wrapper d-flex flex-md-row justify-content-center'>
                     <div id='Github-footer' className='d-flex flex-column align-items-center mx-md-2 transparent-bg'>
