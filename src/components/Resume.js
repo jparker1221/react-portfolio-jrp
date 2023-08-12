@@ -66,8 +66,8 @@ function Resume() {
                             </p>
                         </div>
                         <div className='resume-item'>
-                            <h4>Mediahub</h4>
-                            <h5>Assistant Media Planner, 2021-2022</h5>
+                            <h4>Assistant Media Planner</h4>
+                            <h5>Mediahub, 2021-2022</h5>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
