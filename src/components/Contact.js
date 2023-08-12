@@ -128,7 +128,7 @@ function Contact() {
                                     </div>
                                 )}
                             </Form.Group>
-                            <Button type='submit' className='custom-send-message-button my-5'>
+                            <Button type='submit' variant='dark' className='custom-send-message-button'>
                                 Send Message
                             </Button>
                         </Form>

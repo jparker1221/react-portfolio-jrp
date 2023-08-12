@@ -49,10 +49,7 @@ const socials = [
             ))}
           </section>
           <section className="form-footer">
-          <h5 className="designer-text">Designed by Jon Parker</h5>
-            <p>
-            <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
-            </p>
+          <h5 className="designer-text">Designed by Jon Parker &copy; {new Date().getFullYear()}</h5>
           </section>
         </div>
       </footer>

@@ -23,10 +23,10 @@ function Resume() {
                         <hr className='star-secondary' />
                         <ul className='list-inline'>
                             <li className='list-inline-item'>
-                                <strong>Languages:</strong> JavaScript, HTML, CSS
+                                <strong>Languages:</strong> JavaScript, HTML5, CSS
                             </li>
                             <li className='list-inline-item'>
-                                <strong>Frameworks/Packages:</strong> React, jQuery, Bootstrap, Express, Node
+                                <strong>Frameworks/Libraries:</strong> React, jQuery, Bootstrap, Express, Node, Mongoose, Sequelize
                             </li>
                             <li className='list-inline-item'>
                                 <strong>Databases:</strong> MySQL, MongoDB
@@ -58,6 +58,7 @@ function Resume() {
                         <div className='resume-item'>
                             <h4>Business Analyst</h4>
                             <h5>Dewey's Bakery, 2022-2023</h5>
+                            <h6>Winston-Salem, NC</h6>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
@@ -68,6 +69,7 @@ function Resume() {
                         <div className='resume-item'>
                             <h4>Assistant Media Planner</h4>
                             <h5>Mediahub, 2021-2022</h5>
+                            <h6>Winston-Salem, NC</h6>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
@@ -78,6 +80,7 @@ function Resume() {
                         <div className='resume-item'>
                             <h4>Vertical Account Services Analyst</h4>
                             <h5>Ralph Lauren, 2013-2020</h5>
+                            <h6>Greensboro, NC</h6>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
