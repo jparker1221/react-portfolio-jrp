@@ -1,6 +1,11 @@
 import React from 'react';
 import Project from './Project';
-// import project images here
+import brewFinder from '../images/brewFinder.png';
+import inkedIn from '../images/inkedIn.png';
+import musicGenerator from '../images/musicGenerator.png';
+import passwordGenerator from '../images/passwordGenerator.png';
+import textEditor from '../images/textEditor.png';
+import workdayScheduler from '../images/workdayScheduler.png';
 import '../style/Portfolio.css';
 
 // Portfolio page
@@ -13,58 +18,58 @@ function Portfolio() {
                 <div className="row">
                     {[
                         {
-                            title: 'enter title here',
-                            description: 'enter description here',
-                            // imgSrc: enter project image here,
+                            title: 'Password Generator',
+                            description: 'A password generator that creates a random password for the user based on a series of prompts',
+                            imgSrc: passwordGenerator,
                             deployedLink:
-                                'enter deployed link here',
+                                'https://jparker1221.github.io/mondo-generator-3/',
                             githubLink:
-                                'enter GitHub repository link here',
+                                'https://github.com/jparker1221/mondo-generator-3',
                         },
                         {
-                            title: 'enter title here',
-                            description: 'enter description here',
-                            // imgSrc: enter project image here,
+                            title: 'Work Day Scheduler',
+                            description: 'A calendar application that saves events for each hour of the workday using jQuery to dynamically update the HTML and CSS',
+                            imgSrc: workdayScheduler,
                             deployedLink:
-                                'enter deployed link here',
+                                'https://jparker1221.github.io/daily-planner-module-5-challenge/',
                             githubLink:
-                                'enter GitHub repository link here',
+                                'https://github.com/jparker1221/daily-planner-module-5-challenge',
                         },
                         {
-                            title: 'enter title here',
-                            description: 'enter description here',
-                            // imgSrc: enter project image here,
+                            title: 'Just Another Text Editor',
+                            description: 'A text editor that runs in the browser and meets the progressive web application criteria',
+                            imgSrc: textEditor,
                             deployedLink:
-                                'enter deployed link here',
+                                'https://pwa-jrp-52b4e4ae0537.herokuapp.com/',
                             githubLink:
-                                'enter GitHub repository link here',
+                                'https://github.com/jparker1221/text-editor-module-19-pwa',
                         },
                         {
-                            title: 'enter title here',
-                            description: 'enter description here',
-                            // imgSrc: enter project image here,
+                            title: 'Brew Finder',
+                            description: 'An app that allows the user to search for breweries and local weather by city',
+                            imgSrc: brewFinder,
                             deployedLink:
-                                'enter deployed link here',
+                                'https://seropyan1995.github.io/Brew-Finder-Project-01/',
                             githubLink:
-                                'enter GitHub repository link here',
+                                'https://github.com/Seropyan1995/Brew-Finder-Project-01',
                         },
                         {
-                            title: 'enter title here',
-                            description: 'enter description here',
-                            // imgSrc: enter project image here,
+                            title: 'Random Music Generator',
+                            description: "An app that creates a playlist of songs based on the user's artist or genre input",
+                            imgSrc: musicGenerator,
                             deployedLink:
-                                'enter deployed link here',
+                                'https://new-random-playlist-generator.herokuapp.com/',
                             githubLink:
-                                'enter GitHub repository link here',
+                                'https://github.com/andrewbreytenbach/Random-Playlist-Generator',
                         },
                         {
-                            title: 'enter title here',
-                            description: 'enter description here',
-                            // imgSrc: enter project image here,
+                            title: 'InkedIn',
+                            description: 'A MERN-based social media platform where tattoo artists can network and tattoo enthusiasts can find inspiration for their next tattoo',
+                            imgSrc: inkedIn,
                             deployedLink:
-                                'enter deployed link here',
+                                'https://inkedin-ef5cc989f602.herokuapp.com/',
                             githubLink:
-                                'enter GitHub repository link here',
+                                'https://github.com/bnadel4/inkedin',
                         },
                     ].map((project, index) => (
                         // Div container for each project
