@@ -22,16 +22,16 @@ function Resume() {
                         <h3>Programming Skills</h3>
                         <hr className='star-secondary' />
                         <ul className='list-inline'>
-                            <li className='list-inline-item'>
+                            <li>
                                 <strong>Languages:</strong> JavaScript, HTML, CSS
                             </li>
-                            <li className='list-inline-item'>
+                            <li>
                                 <strong>Frameworks/Libraries:</strong> React, jQuery, Bootstrap, Express, Node, Mongoose ODM, Sequelize ORM
                             </li>
-                            <li className='list-inline-item'>
+                            <li>
                                 <strong>Databases:</strong> MySQL, MongoDB
                             </li>
-                            <li className='list-inline-item'>
+                            <li>
                                 <strong>Other Platforms:</strong> Git, GitHub, Heroku, Insomnia, VSCode
                             </li>
                         </ul>
@@ -59,34 +59,16 @@ function Resume() {
                             <h4>Business Analyst</h4>
                             <h5>Dewey's Bakery, 2022-2023</h5>
                             <h6>Winston-Salem, NC</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
-                                odio eget est convallis ullamcorper. Duis bibendum vestibulum
-                                risus, non convallis odio aliquam eu.
-                            </p>
                         </div>
                         <div className='resume-item'>
                             <h4>Assistant Media Planner</h4>
                             <h5>Mediahub, 2021-2022</h5>
                             <h6>Winston-Salem, NC</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
-                                odio eget est convallis ullamcorper. Duis bibendum vestibulum
-                                risus, non convallis odio aliquam eu.
-                            </p>
                         </div>
                         <div className='resume-item'>
                             <h4>Vertical Account Services Analyst</h4>
                             <h5>Ralph Lauren, 2013-2020</h5>
                             <h6>Greensboro, NC</h6>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
-                                odio eget est convallis ullamcorper. Duis bibendum vestibulum
-                                risus, non convallis odio aliquam eu.
-                            </p>
                         </div>
                     </Col>
                 </Row>

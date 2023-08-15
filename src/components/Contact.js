@@ -74,7 +74,7 @@ function Contact() {
                             </div>
                         )}
                         <Form onSubmit={handleSubmit} noValidate>
-                            <Form.Group className='my-5'>
+                            <Form.Group className='my-4'>
                                 <Form.Label htmlFor='name'>Name:</Form.Label>
                                 <Form.Control
                                     type='text'
@@ -92,7 +92,7 @@ function Contact() {
                                     </div>
                                 )}
                             </Form.Group>
-                            <Form.Group className='my-5'>
+                            <Form.Group className='my-4'>
                                 <Form.Label htmlFor='email'>Email:</Form.Label>
                                 <Form.Control
                                     type='email'
@@ -110,7 +110,7 @@ function Contact() {
                                     </div>
                                 )}
                             </Form.Group>
-                            <Form.Group className='my-5'>
+                            <Form.Group className='my-4'>
                                 <Form.Label htmlFor='message'>Message:</Form.Label>
                                 <Form.Control
                                     as='textarea'
@@ -128,7 +128,7 @@ function Contact() {
                                     </div>
                                 )}
                             </Form.Group>
-                            <Button type='submit' variant='dark' gap='2' my='4'>
+                            <Button type='submit' variant='dark' className='my-4'>
                                 Send Message
                             </Button>
                         </Form>
