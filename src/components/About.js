@@ -6,7 +6,7 @@ import '../style/About.css';
 function About() {
     return (
         // About section
-        <section id="about" className="py-5">
+        <section id="about">
             <h1 className="about-heading">About Me</h1>
             <Container>
                 <Row>

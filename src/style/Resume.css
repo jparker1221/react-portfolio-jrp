@@ -4,12 +4,12 @@
 .resume-section h1 {
   text-align: center;
   margin-top: 0rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 50px;
 }
 
 /* Set margin top and bottom for resume section */
 .resume-margin {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }

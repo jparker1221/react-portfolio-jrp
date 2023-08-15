@@ -12,7 +12,7 @@ function Resume() {
                     <Col className='text-center'>
                         <h1>Resume</h1>
                         <hr className='star-primary' />
-                        <Button variant='dark' href={PDF} download>
+                        <Button variant='dark' href={PDF} download className='mb-3'>
                             Download Resume
                         </Button>
                     </Col>

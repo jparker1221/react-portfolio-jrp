@@ -3,8 +3,8 @@
 /* Styling for the heading */
 .about-heading {
     text-align: center;
-    margin-top: 0.4rem;
-    margin-bottom: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
     font-size: 50px;
 }
 
@@ -28,17 +28,17 @@
 }
 
 /* Font styling for header */
-.card-title {
+/* .card-title {
     font-family: "Arial", sans-serif;
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-}
+} */
 
 /* Styling for the about section container */
-#about {
+/* #about {
     margin-bottom: 12rem;
-}
+} */
 
 /* Tablet view */
 @media (min-width: 768px) {
