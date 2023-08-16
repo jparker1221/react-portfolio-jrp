@@ -36,9 +36,9 @@
 } */
 
 /* Styling for the about section container */
-/* #about {
-    margin-bottom: 12rem;
-} */
+#about {
+    margin-bottom: 10rem;
+}
 
 /* Tablet view */
 @media (min-width: 768px) {
