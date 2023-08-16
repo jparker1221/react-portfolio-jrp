@@ -74,7 +74,6 @@ function Portfolio() {
                     ].map((project, index) => (
                         // Div container for each project
                         <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
-                            {/* <h2>{project.title}</h2> */}
                             <Project
                                 title={project.title}
                                 description={project.description}

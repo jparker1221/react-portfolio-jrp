@@ -38,13 +38,14 @@ body {
 
 /* Styling for card title element */
 .card-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
   font-weight: bold;
 }
 
 /* Styling for card text element */
 .card-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* Styling for deployed and repo buttons */
@@ -93,6 +94,13 @@ body {
 .card-body .btn-repo:hover {
   text-decoration: none;
   color: #ffffff;
+}
+
+.equal-height-cards {
+  .cell {
+    display: flex;
+    align-items: stretch;
+  }
 }
 
 /* Set margin for container element */
