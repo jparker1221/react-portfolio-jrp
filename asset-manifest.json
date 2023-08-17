@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/react-portfolio-jrp/static/css/main.30d7fdfa.css",
-    "main.js": "/react-portfolio-jrp/static/js/main.1e93d340.js",
+    "main.js": "/react-portfolio-jrp/static/js/main.9a21644d.js",
     "static/js/787.f94e7c20.chunk.js": "/react-portfolio-jrp/static/js/787.f94e7c20.chunk.js",
     "static/media/headshot.jpg": "/react-portfolio-jrp/static/media/headshot.5df7f96cd6e54283f74c.jpg",
     "static/media/musicGenerator.png": "/react-portfolio-jrp/static/media/musicGenerator.0110eab80028e89152ce.png",
     "static/media/inkedIn.png": "/react-portfolio-jrp/static/media/inkedIn.682b86dd79d31669ca4e.png",
+    "static/media/JonathanParker_Resume2023.pdf": "/react-portfolio-jrp/static/media/JonathanParker_Resume2023.28978b0572f619854cb7.pdf",
     "static/media/brewFinder.png": "/react-portfolio-jrp/static/media/brewFinder.fcd096004df5a9ed072e.png",
-    "static/media/JonathanParker_Resume2022.pdf": "/react-portfolio-jrp/static/media/JonathanParker_Resume2022.b26ffd60e2b59c002dd1.pdf",
     "static/media/workdayScheduler.png": "/react-portfolio-jrp/static/media/workdayScheduler.81894f45583450259161.png",
     "static/media/passwordGenerator.png": "/react-portfolio-jrp/static/media/passwordGenerator.c9caf97f86ba3618899f.png",
     "static/media/textEditor.png": "/react-portfolio-jrp/static/media/textEditor.956ceeb32c5e21c9c3a4.png",
     "index.html": "/react-portfolio-jrp/index.html",
     "main.30d7fdfa.css.map": "/react-portfolio-jrp/static/css/main.30d7fdfa.css.map",
-    "main.1e93d340.js.map": "/react-portfolio-jrp/static/js/main.1e93d340.js.map",
+    "main.9a21644d.js.map": "/react-portfolio-jrp/static/js/main.9a21644d.js.map",
     "787.f94e7c20.chunk.js.map": "/react-portfolio-jrp/static/js/787.f94e7c20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30d7fdfa.css",
-    "static/js/main.1e93d340.js"
+    "static/js/main.9a21644d.js"
   ]
 }
