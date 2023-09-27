@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import '../style/Contact.css';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -60,6 +61,19 @@ function Contact() {
             setSuccessMessageSent(true);
         }
     };
+
+    const templateParams = {
+        from_name: name,
+        from_email: email,
+        message: text,
+      };
+
+    emailjs.send('service_6pzt1xl', 'template_quknvnh', templateParams, 'mdUs5uQz3LPtXmVwT')
+     .then((result) => {
+         // show the user a success message
+     }, (error) => {
+         // show the user an error
+     });
 
     // Render the contact form
     return (
